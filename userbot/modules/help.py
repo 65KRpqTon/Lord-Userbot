@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 #
-""" Lord Userbot help command """
+""" Kyy Userbot help command """
 
 # LORD USERBOT
 # @LORDUSERBOT_GROUP
@@ -26,7 +26,7 @@ async def help(lord):
         if args in CMD_HELP:
             await lord.edit(str(CMD_HELP[args]))
         else:
-            await lord.edit("**Maaf Lord, Saya Tidak Punya Perintah Itu ツ**")
+            await lord.edit("**Typing Cmd Yang Benar Ya Kontol**")
             await asyncio.sleep(200)
             await lord.delete()
     else:
@@ -61,7 +61,7 @@ async def help(lord):
                         "`transform`  `update`  `download`  `getid`  `waifu`  `wallpaper`  `weather`\n\n"
                         "**⚡️ MODULES 15:**\n"
                         "`webupload`  `welcome`  `whois`  `ping`  `sinyal`  `xiaomi`  `zipfile`")
-        await lord.reply("\n**CARA MENGGUNAKAN,** **CONTOH:**\n**KETIK** `.help afk` **UNTUK INFORMASI MODULES**\n**GROUP SUPPORT:** [TEKAN](t.me/LordUserbot_Group)")
+        await lord.reply("\n**CARA MENGGUNAKAN,** **CONTOH:**\n**KETIK** `.help afk` **UNTUK INFORMASI MODULES**\n**Owner:** [TEKAN](t.me/sokapgblg)")
         await asyncio.sleep(1000)
         await lord.delete()
 
